@@ -21,7 +21,7 @@
     "editorGroup.border": "#1a4258",
     // "editorGroup.emptyBackground": "#ff0000",
     "editorGutter.background": "#0c344b",
-    "editorGutter.commentRangeForeground": "#ff0000",
+    // "editorGutter.commentRangeForeground": "#ff0000",
     "sideBar.background": "#0c344b",
     "sideBar.border": "#0c344b",
     "sideBar.dropBackground": "#1a4258",
