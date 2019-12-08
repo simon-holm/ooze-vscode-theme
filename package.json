@@ -1,0 +1,21 @@
+{
+  "name": "ooze-theme",
+  "displayName": "Ooze",
+  "description": "Oozing dark theme with italics 👊",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ooze",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ooze-color-theme.json"
+      }
+    ]
+  }
+}

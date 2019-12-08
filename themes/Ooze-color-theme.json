@@ -1,0 +1,471 @@
+{
+  "name": "Ooze",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0c344b",
+    "editor.selectionBackground": "#092738",
+    //"editor.selectionForeground": "#ff0000",
+    "editorLineNumber.foreground": "#275066",
+    "editorLineNumber.activeForeground": "#4b7c97",
+    "editor.lineHighlightBorder": "#09273800",
+    "editor.lineHighlightBackground": "#0927389f",
+    "editorPane.background": "#0c344b",
+    "editorCursor.foreground": "#24da8d",
+
+    "titleBar.activeBackground": "#1a4258",
+    "titleBar.inactiveBackground": "#0c344b",
+    "titleBar.border": "#1a4258",
+
+    "editorGroupHeader.tabsBackground": "#0c344b",
+    "editorGroup.dropBackground": "#1a4258",
+    "editorGroup.border": "#1a4258",
+    // "editorGroup.emptyBackground": "#ff0000",
+    "editorGutter.background": "#0c344b",
+    "editorGutter.commentRangeForeground": "#ff0000",
+    "sideBar.background": "#0c344b",
+    "sideBar.border": "#0c344b",
+    "sideBar.dropBackground": "#1a4258",
+    "sideBarSectionHeader.background": "#1a4258",
+    "sideBarSectionHeader.border": "#1a4258",
+
+    "tab.border": "#00000000",
+    "tab.inactiveBackground": "#0c344b",
+    "tab.activeBackground": "#1a4258",
+    "tab.hoverBackground": "#19da8d44",
+
+    "panel.background": "#0c344b",
+    "panel.border": "#1a4258",
+
+    "statusBar.background": "#1a4258",
+
+    "menu.background": "#1a4258",
+    "menu.selectionBackground": "#0c344b",
+    "menu.foreground": "#9fbdce",
+    "menu.selectionForeground": "#f0f0f0",
+    // "sideBar.foreground": "#ff0000",
+    //"sideBarTitle.foreground": "#ff0000",
+    //"sideBarSectionHeader.foreground": "#ff0000",
+
+    "list.activeSelectionBackground": "#19da8db6",
+    "list.activeSelectionForeground": "#fcfcfc",
+    "list.inactiveSelectionBackground": "#19da8d25",
+    "list.inactiveSelectionForeground": "#ececec",
+    "list.hoverBackground": "#19da8d54",
+    "list.hoverForeground": "#fcfcfc",
+
+    "activityBar.background": "#1a4258",
+    "activityBar.activeBackground": "#1a4258",
+    "activityBar.foreground": "#f0f0f0",
+    "activityBar.inactiveForeground": "#4d6d7f",
+    "activityBar.border": "#1a4258",
+    "activityBar.dropBackground": "#a6fc07",
+    "activityBar.activeBorder": "#f0f0f0",
+    // "menu.background": "#a6fc07",
+
+    "scrollbarSlider.activeBackground": "#19da8db6",
+    "scrollbarSlider.hoverBackground": "#50dba444",
+    "scrollbar.shadow": "#1a42587c",
+    "editorOverviewRuler.hoverBackground": "#19da8db6",
+    "editorOverviewRuler.border": "#ff000000"
+  },
+  "tokenColors": [
+    {
+      "name": "Ooze Variables",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#24da8d"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#8fa6b2"
+      }
+    },
+    {
+      "name": "keywords",
+      "scope": ["keyword", "storage.type.class"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff92f0"
+      }
+    },
+    {
+      "name": "strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#ffe376"
+      }
+    },
+    {
+      "name": "functions",
+      "scope": "function",
+      "settings": {
+        "foreground": "#4fbcff"
+      }
+    },
+    {
+      "name": "Text nested in React JSX tags",
+      "scope": [
+        "meta.jsx.children",
+        "meta.jsx.children.js",
+        "meta.jsx.children.tsx"
+      ],
+      "settings": {
+        "foreground": "#e9d8de"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#ec759f"
+      }
+    },
+    {
+      "name": "types",
+      "scope": [
+        "type",
+        "support.type",
+        "support.type.property-name.json.comments"
+      ],
+      "settings": {
+        "foreground": "#ffb052"
+      }
+    },
+    {
+      "name": "Name.Constant",
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#24da8d"
+      }
+    },
+    {
+      "name": "Generic: Heading (multi line)",
+      "scope": "markup.heading.1 punctuation.definition.heading",
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "Name.Entity",
+      "scope": "constant.character.entity",
+      "settings": {
+        "foreground": "#d67c9b"
+      }
+    },
+    {
+      "name": "Name.Exception",
+      "scope": "entity.name.exception",
+      "settings": {
+        "foreground": "#d67c9b"
+      }
+    },
+    {
+      "name": "Name.Function",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "support.class.builtin",
+        "keyword.other.name-of-parameter"
+      ],
+      "settings": {
+        "foreground": "#4fbcff"
+      }
+    },
+    {
+      "name": "Name.Tag",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#ff657a" // <div>
+      }
+    },
+    {
+      "name": "Support.Class",
+      "scope": [
+        "support.class",
+        "support.class.component",
+        //"meta.jsx.children",
+        "constant.numeric",
+        "punctuation.terminator.statement",
+        "support.variable.property.dom"
+      ],
+      "settings": {
+        "foreground": "#ff657a" // <Field />
+      }
+    },
+    {
+      "name": "Component",
+      "scope": ["entity.other.inherited-class", "entity.name.type"],
+      "settings": {
+        "foreground": "#ffb052"
+      }
+    },
+    {
+      "name": "Storage.Modifier", //EXTENDS
+      "scope": ["storage.modifier", "storage.type"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff92f0"
+      }
+    },
+    {
+      "name": "Storage.Type", // CONSTRUCTOR
+      "scope": ["constructor"],
+      "settings": {
+        "foreground": "#4fbcff"
+      }
+    },
+    {
+      "scope": [
+        "variable.language",
+        "variable.parameter.function.language.special.self.python",
+        "variable.parameter.function.language.special.cls.python"
+      ],
+      "name": "Reserved variable names that are specified by the language, such as this, self, super, arguments. Also in function arguments (e.g. like in Python)",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#cc557f"
+      }
+    },
+    {
+      "name": "Boolean & Null",
+      "scope": [
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language.undefined"
+      ],
+      "settings": {
+        "foreground": "#ff8b50",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Parameter",
+      "scope": [
+        "variable.parameter",
+        "variable.other.readwrite",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#ffe376"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": ["variable.other.constant"],
+      "settings": {
+        "foreground": "#24da8d"
+      }
+    },
+    {
+      "name": "Object Property",
+      "scope": ["variable.other.property"],
+      "settings": {
+        "foreground": "#d1f0e3"
+      }
+    },
+    {
+      "name": "Object Key",
+      "scope": ["meta.object-literal.key"],
+      "settings": {
+        "foreground": "#24da8d"
+      }
+    },
+    {
+      "name": "Object Key 2",
+      "scope": [
+        "meta.var.expr meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#24da8d"
+      }
+    },
+    {
+      "name": "Constant.Object.Keys",
+      "scope": ["string.unquoted", "constant.other.object.key"],
+      "settings": {
+        "foreground": "#8ADF69"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "punctuation.definition.tag",
+        "punctuation.section.embedded",
+        //"meta.tag",
+        "meta.brace.round",
+        "meta.array.literal"
+      ],
+      "settings": {
+        "foreground": "#8fa6b2"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#ff92f0",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Operator New",
+      "scope": ["keyword.operator.new"],
+      "settings": {
+        "foreground": "#ff92f0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "comment.line",
+        "comment.line.double-slash"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#8fa6b2"
+      }
+    },
+    {
+      "name": "Class.Name",
+      "scope": ["entity.name.class"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#fac863"
+      }
+    },
+    {
+      "name": "Decorator",
+      "scope": [
+        "entity.name.class.decorator",
+        "variable.other.readwrite.decorator"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#88c6be"
+      }
+    },
+    {
+      "name": "Variable.Other.Class",
+      "scope": ["variable.other.class", "meta.property.class"],
+      "settings": {
+        "foreground": "#A4FFFF"
+      }
+    },
+    {
+      "name": "Console",
+      "scope": ["support.type.object.console", "support.class.console.tsx"],
+      "settings": {
+        "foreground": "#fac863",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Function.Arrow",
+      "scope": ["storage.type.function.arrow", "meta.function.arrow"],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#fac863"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#f79d70"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#FF92DF"
+      }
+    },
+    {
+      "name": "JSON Key - Level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#8BE9FD"
+      }
+    },
+    {
+      "name": "JSON Key - Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#c5a5c5"
+      }
+    },
+    {
+      "name": "JSON Key - Level 5",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#F38E9A"
+      }
+    },
+    {
+      "name": "JSON Key - Level 6",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#88c6be"
+      }
+    },
+    {
+      "name": "JSON Key - Level 7",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#82aaff"
+      }
+    },
+    {
+      "name": "JSON Key - Level 8",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#FF6E6E"
+      }
+    },
+    {
+      "name": "Tag names in Stylesheets",
+      "scope": [
+        "entity.name.tag.css",
+        "entity.name.tag.less",
+        "entity.name.tag.custom.css",
+        "support.constant.property-value.css"
+      ],
+      "settings": {
+        "foreground": "#ddf1e9",
+        "fontStyle": ""
+      }
+    }
+  ]
+}
