@@ -2,6 +2,8 @@
   "name": "oozedarktheme",
   "displayName": "Ooze - Dark Theme",
   "description": "Oozing dark theme with italics 👊",
+  "publisher": "spixooze",
+  "icon": "images/logo.png",
   "author": {
     "name": "spixooze"
   },

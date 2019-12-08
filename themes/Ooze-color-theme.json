@@ -113,14 +113,14 @@
         "meta.jsx.children.tsx"
       ],
       "settings": {
-        "foreground": "#e9d8de"
+        "foreground": "#eee0e5"
       }
     },
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#ec759f"
+        "foreground": "#f394b5"
       }
     },
     {
