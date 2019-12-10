@@ -20,6 +20,11 @@
         "label": "Ooze",
         "uiTheme": "vs-dark",
         "path": "./themes/Ooze-color-theme.json"
+      },
+      {
+        "label": "Ooze - Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ooze-dark-color-theme.json"
       }
     ]
   },
