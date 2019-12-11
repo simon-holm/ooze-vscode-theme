@@ -1,4 +1,6 @@
 *.vsix
 .DS_Store
 palette.json
+backup.json
+backup-dark.json
 node_modules/
