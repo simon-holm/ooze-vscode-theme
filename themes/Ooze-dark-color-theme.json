@@ -52,7 +52,7 @@
     "editorOverviewRuler.border": "#ff000000",
     "editorSuggestWidget.background": "#092a3d",
     "editorSuggestWidget.border": "#0c2f46",
-    "editorSuggestWidget.selectedBackground": "#19da8db6",
+    "editorSuggestWidget.selectedBackground": "#19da8d42",
     "editorWarning.foreground": "#d19a66",
     "editorWhitespace.foreground": "#3b4048",
     "editorWidget.background": "#092a3d",
