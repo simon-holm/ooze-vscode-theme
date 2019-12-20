@@ -117,6 +117,7 @@
     "terminal.ansiWhite": "#fcfcfc",
     "terminal.ansiYellow": "#e5c07b",
     "terminal.foreground": "#9fbdce",
+    "terminal.background": "#072130",
     "textLink.foreground": "#61afef",
     "titleBar.activeBackground": "#0c2f46",
     "titleBar.activeForeground": "#f0f0f0",
