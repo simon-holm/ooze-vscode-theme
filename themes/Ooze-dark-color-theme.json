@@ -24,7 +24,7 @@
     "editor.selectionHighlightBackground": "#19da8d1c",
     "editor.selectionHighlightBorder": "#19da8d2c",
     "editor.wordHighlightBackground": "#19da8d00",
-    "editor.wordHighlightBorder": "#19da8d21",
+    "editor.wordHighlightBorder": "#19da8d65",
     "editor.wordHighlightStrongBackground": "#abb2bf26",
     "editor.wordHighlightStrongBorder": "#7f848e",
 
@@ -40,8 +40,8 @@
     // "editorGroup.emptyBackground": "#0c2f46",
     "editorGroup.border": "#0c2f46",
     "editorGroupHeader.tabsBackground": "#092a3d",
-    "editorHoverWidget.background": "#092a3d",
-    "editorHoverWidget.border": "#0c2f46",
+    "editorHoverWidget.background": "#072333",
+    "editorHoverWidget.border": "#19da8d2f",
 
     "editorIndentGuide.activeBackground": "#9fbdce59", // see where these are
     "editorIndentGuide.background": "#3b4048", // see where these are
@@ -72,7 +72,7 @@
     "peekViewEditor.background": "#061e2c",
     "peekViewEditor.matchHighlightBackground": "#19da8d4d",
     "peekViewResult.background": "#082233",
-    "peekView.border": "#0c2f46",
+    "peekView.border": "#19da8d52",
 
     "scrollbarSlider.activeBackground": "#19da8db6",
     "scrollbarSlider.background": "#50dba318",
@@ -117,7 +117,7 @@
     "terminal.ansiWhite": "#fcfcfc",
     "terminal.ansiYellow": "#e5c07b",
     "terminal.foreground": "#9fbdce",
-    "terminal.background": "#072130",
+    "terminal.background": "#051824",
     "textLink.foreground": "#61afef",
     "titleBar.activeBackground": "#0c2f46",
     "titleBar.activeForeground": "#f0f0f0",

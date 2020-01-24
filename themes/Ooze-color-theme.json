@@ -22,17 +22,17 @@
     "editor.lineHighlightBackground": "#0927389f",
     "editor.selectionBackground": "#19da8d4d", // Chheck this
     "editor.selectionHighlightBackground": "#19da8d2f",
-    "editor.selectionHighlightBorder": "#19da8d2c",
+    "editor.selectionHighlightBorder": "#19da8d42",
     "editor.wordHighlightBackground": "#19da8d0a",
-    "editor.wordHighlightBorder": "#19da8d13",
+    "editor.wordHighlightBorder": "#19da8d73",
     "editor.wordHighlightStrongBackground": "#abb2bf26",
     "editor.wordHighlightStrongBorder": "#7f848e",
 
     "editorLineNumber.foreground": "#275066",
     "editorLineNumber.activeForeground": "#4b7c97",
 
-    "editorBracketMatch.background": "#19da8d25", // Come back to this
-    "editorBracketMatch.border": "#19da8d48",
+    "editorBracketMatch.background": "#19da8d18", // Come back to this
+    "editorBracketMatch.border": "#19da8d62",
 
     // "editorCursor.background": "#ffffffc9",
     "editorCursor.foreground": "#24da8d",

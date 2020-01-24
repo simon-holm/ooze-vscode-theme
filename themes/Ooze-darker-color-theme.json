@@ -23,8 +23,8 @@
     "editor.selectionBackground": "#19da8d4d", // Chheck this
     "editor.selectionHighlightBackground": "#19da8d1c",
     "editor.selectionHighlightBorder": "#19da8d2c",
-    "editor.wordHighlightBackground": "#19da8d00",
-    "editor.wordHighlightBorder": "#19da8d21",
+    "editor.wordHighlightBackground": "#19da8d07",
+    "editor.wordHighlightBorder": "#19da8d56",
     "editor.wordHighlightStrongBackground": "#abb2bf26",
     "editor.wordHighlightStrongBorder": "#7f848e",
 
@@ -40,8 +40,8 @@
     // "editorGroup.emptyBackground": "#0a293d",
     "editorGroup.border": "#0a293d",
     "editorGroupHeader.tabsBackground": "#041f2e",
-    "editorHoverWidget.background": "#041f2e",
-    "editorHoverWidget.border": "#0a293d",
+    "editorHoverWidget.background": "#041c29",
+    "editorHoverWidget.border": "#24da8e34",
 
     "editorIndentGuide.activeBackground": "#9fbdce59", // see where these are
     "editorIndentGuide.background": "#3b4048", // see where these are
@@ -69,10 +69,10 @@
     "menu.foreground": "#9fbdce",
 
     "peekViewTitle.background": "#0a293d",
-    "peekViewEditor.background": "#061e2c",
+    "peekViewEditor.background": "#041924",
     "peekViewEditor.matchHighlightBackground": "#19da8d4d",
     "peekViewResult.background": "#082233",
-    "peekView.border": "#0a293d",
+    "peekView.border": "#19da8d46",
 
     "scrollbarSlider.activeBackground": "#19da8db6",
     "scrollbarSlider.background": "#50dba318",
@@ -117,7 +117,7 @@
     "terminal.ansiWhite": "#fcfcfc",
     "terminal.ansiYellow": "#e5c07b",
     "terminal.foreground": "#9fbdce",
-    "terminal.background": "#041824",
+    "terminal.background": "#021018",
     "textLink.foreground": "#61afef",
     "titleBar.activeBackground": "#0a293d",
     "titleBar.activeForeground": "#f0f0f0",

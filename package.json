@@ -19,15 +19,15 @@
       {
         "label": "Ooze",
         "uiTheme": "vs-dark",
-        "path": "./themes/Ooze-color-theme.json"
-      },
-      {
-        "label": "Ooze - Dark",
-        "uiTheme": "vs-dark",
         "path": "./themes/Ooze-dark-color-theme.json"
       },
       {
-        "label": "Ooze - Darker",
+        "label": "Ooze - Washed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ooze-color-theme.json"
+      },
+      {
+        "label": "Ooze - Midnight",
         "uiTheme": "vs-dark",
         "path": "./themes/Ooze-darker-color-theme.json"
       }
