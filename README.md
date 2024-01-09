@@ -4,8 +4,8 @@
 
 Themes included
 
-- Ooze
-- Ooze - Washed (a slightly lighter version)
-- Ooze - Midnight (Darker and higher contrast)
+- Ooze - legacy :(
+- Ooze - Washed (a slightly lighter version) - legacy :(
+- **Ooze - Midnight (Darker and higher contrast) - 2024 Update**
 
 Suggestion for improvements? Submit a PR / Issue
